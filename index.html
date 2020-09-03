@@ -1,99 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Happy Trails</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div class='nav_hero_section'>
+          <div class='nav_hero_overlay'>
+<nav class="flex items-center justify-between flex-wrap p-6 sticky top-0">
+                <div class="flex items-center flex-shrink-0 text-white mr-6">
+                 <img src='https://img.icons8.com/color/344/beach-umbrella.png' class='w-10 mx-2 rounded'/>
+                  <span class="font-semibold text-xl tracking-tight">Happy-Trail.com</span>
+                </div>
+                <div class="block lg:hidden">
+                  <button
+                    class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+                  >
+                    <svg
+                      class="fill-current h-3 w-3"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>Menu</title>
+                      <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                  <div class="text-sm lg:flex-grow">
+                    <a
+                      href="#responsive-header"
+                      class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+                    >
+                      Travel
+                    </a>
+                    <a
+                      href="#responsive-header"
+                      class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+                    >
+                      Expo
+                    </a>
+                    <a
+                      href="#responsive-header"
+                      class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+                    >
+                      Destination
+                    </a>
+                  </div>
+                  
+                </div>
+              </nav>
+            </header>
+            <section>
+              <div class="py-12  text-center w-3/4 mx-auto px-2">
+                <h1 class="text-5xl font-bold text-white  mt-24">
+                  Get ready for your lifetime journey
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, harum.
+                </h1>
+                <div class='pt-4'>
+                    <button class='mt-2 bg-pink-500 px-10 py-4 text-white rounded-lg hover:bg-pink-400 focus:outline-none'>
+                        Explore now
+                    </button>
+                </div>
+              </div>
+          </div>
+      </div>
     <header>
-        <h1>Happy Trail Travel Agency</h1>
-    </header>
-    <section>
-        <h1>Tropical</h1>
-        <div class="tropical">
-            <div class="one">
-                <div class="image"></div>
-                <h1>Diani Beach</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
-
-            <div class="one">
-                <div class="image" id="img1"></div>
-                <h1>Nyali</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
-
-
-            <div class="one">
-                <div class="image" id="img2"></div>
-                <h1>Watamu</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
+      <div class=" px-48 grid grid-cols-4 py-12 gap-3">
+      <div class="max-w-sm rounded overflow-hidden shadow-xl">
+        <img class="w-full" src="http://www.travelstart.co.ke/blog/wp-content/uploads/2014/08/Diani-Beach.jpg" alt="Sunset in the mountains">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Tsavo west park</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          </p>
         </div>
-
-        <div class="tropical">
-            <div class="one">
-                <div class="image" id="img3"></div>
-                <h1>Spa</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
-
-            <div class="one">
-                <div class="image" id="img4"></div>
-                <h1>Gym</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
-
-            <div class="one">
-                <div class="image" id="img5"></div>
-                <h1>Gym</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#keny</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#park</span>
         </div>
+      </div>
+<!-- card number 2 -->
+<div class="max-w-sm rounded overflow-hidden shadow-xl">
+    <img class="w-full" src="http://www.travelstart.co.ke/blog/wp-content/uploads/2014/08/3792001021_2a00092476_z.jpg" alt="Sunset in the mountains">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">The plasma rise</div>
+      <p class="text-gray-700 text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      </p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#beautifull</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#hot</span>
+    </div>
+  </div>
+  <!-- card number 3 -->
+  <div class="max-w-sm rounded overflow-hidden shadow-xl">
+    <img class="w-full" src="http://www.travelstart.co.ke/blog/wp-content/uploads/2014/08/3103902829_287d2320e2_z.jpg" alt="Sunset in the mountains">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">The shadow creek</div>
+      <p class="text-gray-700 text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      </p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#creeks</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#falls</span>
+    </div>
+  </div>
+  <!-- card number 4 -->
+  <div class="max-w-sm rounded overflow-hidden shadow-xl">
+    <img class="w-full" src="http://www.travelstart.co.ke/blog/wp-content/uploads/2014/08/Bamburi-Beach.jpg" alt="Sunset in the mountains">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">The deep rise</div>
+      <p class="text-gray-700 text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      </p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#ocean</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#sports</span>
+    </div>
+  </div>
+  <!-- card number 5 -->
+  <div class="max-w-sm rounded overflow-hidden shadow-xl">
+    <img class="w-full" src="http://www.travelstart.co.ke/blog/wp-content/uploads/2014/08/kikambala-beach.jpg" alt="Sunset in the mountains">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">The gray dawn</div>
+      <p class="text-gray-700 text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      </p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#clouds</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#water</span>
+    </div>
+  </div>
+  <!-- card number 6 -->
+  <div class="max-w-sm rounded overflow-hidden shadow-xl">
+    <img class="w-full" src="http://www.travelstart.co.ke/blog/wp-content/uploads/2014/08/shanzu-beach-kenya.jpg" alt="Sunset in the mountains">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">The divine sunset</div>
+      <p class="text-gray-700 text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      </p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#sunset</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#evening</span>
+    </div>
+  </div>
+  <!-- card number 7 -->
+  <div class="max-w-sm rounded overflow-hidden shadow-xl">
+    <img class="w-full" src="http://www.travelstart.co.ke/blog/wp-content/uploads/2014/08/Mt.-Kenya.jpg" alt="Sunset in the mountains">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">The cross breeze</div>
+      <p class="text-gray-700 text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      </p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#air</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#sky</span>
+    </div>
+  </div>
+  <!-- card number 8 -->
 
-        <h1>Popular</h1>
-        <div class="popular">
-            <div class="one">
-                <div class="image" id="img6"></div>
-                <h1>Nairobi National Park</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
-
-            <div class="one">
-                <div class="image" id="img7"></div>
-                <h1>David Sheldrick Wildlife Trust</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
-
-            <div class="one">
-                <div class="image" id="img8"></div>
-                <h1>KICC</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
-        </div>
-
-        <div class="popular">
-
-            <div class="one">
-                <div class="image" id="img9"></div>
-                <h1>Aboretum</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
-    
-            <div class="one">
-                <div class="image" id="img10"></div>
-                <h1>Nairobi Mamba village</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
-    
-            <div class="one">
-                <div class="image" id="img11"></div>
-                <h1>Maasai Mara</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos laudantium qui ipsum dolorum est, amet possimus voluptates quo fugit delectus veniam, commodi temporibus quae eaque. Similique, cupiditate voluptatem?</p>
-            </div>
-        </div>
+  <div class="max-w-sm rounded overflow-hidden shadow-xl">
+    <img class="w-full" src="http://www.travelstart.co.ke/blog/wp-content/uploads/2014/05/Zebras-Nairobi.jpg" alt="Sunset in the mountains">
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">The high drop</div>
+      <p class="text-gray-700 text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      </p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#valley</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#gear</span>
+    </div>
+  </div>
+</div>
+      </div>
     </section>
-</body>
+    <footer class='w-full h-48 bg-gray-900 relative'>
+        <div class='absolute py-4 px-6 bg-gray-700 text-gray-200 rounded m-3'>
+            refactored by kitsao
+        </div>
+    </footer>
+  </body>
 </html>
